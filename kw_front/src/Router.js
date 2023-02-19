@@ -43,7 +43,7 @@ function Router() {
           setPageIndex={setPageIndex}
           setMyUserName={setMyUserName}
         />
-        <div className="h-14 w-full fixed z-20">
+        <div className="h-[80px] w-full fixed z-20">
           <Navigation
             setLogInModal={setLogInModal}
             auth={auth}
@@ -53,7 +53,7 @@ function Router() {
             setPasswordModal={setPasswordModal}
           />
         </div>
-        <div className="py-14 h-full w-full flex justify-center overflow-y-auto">
+        <div className=" h-full w-full flex justify-center overflow-y-auto">
           <div className="h-full w-full bg-white">
             <Routes>
               <Route
