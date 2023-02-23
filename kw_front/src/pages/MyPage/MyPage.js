@@ -19,7 +19,7 @@ function MyPage({
 }) {
   return (
     <div className="flex flex-col w-full pt-5 ">
-      <div className="flex flex-row w-full justify-end pr-5 pt-5 pb-5 bg-[#f1f6fe]">
+      <div className="flex flex-row w-full justify-end pr-5  pt-[80px] pb-5 bg-[#f1f6fe]">
         <NavLink
           className="border w-[100px] h-[50px]  text-[16px] text-center text-white flex items-center font-bold bg-violet-600 hover:bg-violet-700 active:bg-violet-800 focus:outline-none focus:ring focus:ring-violet-500  justify-center rounded-lg"
           to="/"
